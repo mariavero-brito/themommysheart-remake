@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Shop | Mommy's Heart redesign preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&family=Mansalva&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="shop">
+<main>
+
+<section class="section" style="padding-bottom:20px">
+  <div class="wrap">
+    <h1 data-i18n="shop.h1">Flashcards and guides</h1>
+    <div class="frame"><div class="frame-in">
+      <div class="ph" style="border:0;min-height:200px">Bundle photo placeholder</div>
+      <div class="txt"><h2 data-i18n="shop.bundle">Starter set of 5 decks, special price</h2><p class="muted">[Bundle price to be confirmed]</p><a class="btn" href="#" data-preview>Add the set</a></div>
+    </div></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:10px">
+  <div class="wrap">
+    <div class="filters">
+      <label class="sr" for="f-age">Age</label><select id="f-age"><option value="all">Age: all</option><option value="0-3">0 to 3 months</option><option value="12-24">12 to 24 months</option><option value="24-36">24 to 36 months</option></select>
+      <label class="sr" for="f-lang">Language</label><select id="f-lang"><option value="all">Language: all</option><option value="es">Spanish</option><option value="en">English</option></select>
+      <label class="sr" for="f-topic">Topic</label><select id="f-topic"><option value="all">Topic: all</option><option value="basics">Basics</option><option value="food">Food</option><option value="animals">Animals</option><option value="world">World</option><option value="social">Feelings</option></select>
+      <label class="sr" for="sort">Sort</label><select id="sort"><option value="availability">Sort: availability</option><option value="name">Sort: name</option></select>
+    </div>
+    <p class="muted">Illustrative deck names and stock status.</p>
+    <div class="grid g3" id="decks">
+    <article class="card" data-age="all" data-lang="es" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>Colors</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="es" data-topic="food"><div class="ph">Deck photo placeholder</div><h3>Fruits</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="es" data-topic="food"><div class="ph">Deck photo placeholder</div><h3>Vegetables</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="24-36" data-lang="en" data-topic="world"><div class="ph">Deck photo placeholder</div><h3>Transportation</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="24-36" data-lang="es" data-topic="social"><div class="ph">Deck photo placeholder</div><h3>Feelings</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="en" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>Numbers</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="en" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>Shapes</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="es" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>Objects</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card" data-age="12-24" data-lang="es" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>First words</h3><p class="price">$19.99</p><a class="btn small" href="#" data-preview data-i18n="btn.cart">Add to cart</a></article>
+    <article class="card soldout" data-age="12-24" data-lang="es" data-topic="animals"><div class="ph">Deck photo placeholder</div><h3>Wild animals</h3><p class="price">$19.99</p><button class="btn small" disabled>Sold out</button><a class="btn small ghost" href="#" data-preview>Notify me when it's back</a></article>
+    <article class="card soldout" data-age="24-36" data-lang="es" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>Alphabet</h3><p class="price">$19.99</p><button class="btn small" disabled>Sold out</button><a class="btn small ghost" href="#" data-preview>Notify me when it's back</a></article>
+    <article class="card soldout" data-age="0-3" data-lang="en" data-topic="basics"><div class="ph">Deck photo placeholder</div><h3>0 to 3 months</h3><p class="price">$19.99</p><button class="btn small" disabled>Sold out</button><a class="btn small ghost" href="#" data-preview>Notify me when it's back</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="section sage">
+  <div class="wrap">
+    <div class="nl-band"><h3 data-i18n="shop.free">Get both free guides when you join our newsletter</h3>
+      <form data-preview-form><label class="sr" for="gm">Email</label><input id="gm" type="email" placeholder="Email"><button class="btn" type="submit">Send me the guides</button></form></div>
+  </div>
+</section>
+
+</main>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
